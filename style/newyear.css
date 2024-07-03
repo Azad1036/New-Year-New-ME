@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Share releted style */
+.btn-primary {
+    background: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+}
+
+/* header releted style */
+.header-banner {
+    background-image: url('/images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 190px;
+    padding-right: 230px;
+
+}
+
+.header-subtitle {
+    color: #FFFFFF;
+    text-align: right;
+    padding: 26px 0px;
+    padding-right: 230px;
+
+}
+
+.btn {
+    text-align: right;
+    padding-bottom: 120px;
+    padding-right: 230px;
+}
+
+/* main releted style */
+
+main {
+    padding: 0px 230px;
+}
+
+
+.failures-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 130px 0px;
+}
+
+.failures-title {
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failures-subtitle {
+    color: #444343;
+    margin: 20px 0px;
+}
+
+.failures-container img {
+    height: 500px;
+}
+
+span i {
+    color: #16D887;
+}
+
+.failures-future {
+    color: #444343;
+    margin-top: 8px;
+}
+
+/* My Plan releted style */
+.myPlan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myPlan-main-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.myPlan-container img {
+    margin-left: 40px;
+    padding-right: 50px;
+}
+
+.myPlan-container h3 {
+    color: #151414;
+    text-align: center;
+}
+
+.myPlan-container p {
+    color: #151414;
+    text-align: center;
+}
+
+.myPlan-images {
+    border-radius: 8px;
+
+    background: linear-gradient(90.00deg, rgb(0, 95, 172),rgba(0, 95, 172, 0) 100%), url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 59px 0px 0px 64px;
+    border-radius: 8px;
+    margin: 130px 0px;
+}
+
+.myPlan-images-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.btn-callNow {
+    padding-bottom: 59px;
+    padding-top: 24px;
+}
+
+/* footer releted style */
+.footer {
+    background: #151414;
+    height: 500px;
+    padding: 0px 230px;
+}
+
+.footer-container {
+    display: flex; 
+}
+
+.footer-future-section {
+    padding: 130px 0px;
+    width: 50%;
+}
+
+.footer-future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-future-subtitle {
+    color: #F8F8F8;
+    margin: 18px 0px;
+}
+
+.footer-email {
+    color: #F8F8F8;
+}
+
+.footer-phone-number {
+    color: #F8F8F8;
+    margin: 18px 0px;
+}
+
+.footer-sub-section {
+    padding-top: 130px;
+    margin-left: 200px;
+}
+
+.footer-sub-section h3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.footer-sub-section input {
+ padding: 15px 22px;
+ border: 2px solid #444343;
+ background: transparent;
+ margin: 20px 0px 15px 0px;
+ border-radius: 8px;
+
+}
+
+.btn-sub {
+    background: #005FAC;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
