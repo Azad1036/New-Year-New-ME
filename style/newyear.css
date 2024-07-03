@@ -17,7 +17,7 @@
 
 /* header releted style */
 .header-banner {
-    background-image: url('./images/banner/banner3.png');
+    background-image: url('/images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -119,7 +119,7 @@ span i {
 .myPlan-images {
     border-radius: 8px;
 
-    background: linear-gradient(90.00deg, rgb(0, 95, 172),rgba(0, 95, 172, 0) 100%), url('./images/watch.png');
+    background: linear-gradient(90.00deg, rgb(0, 95, 172),rgba(0, 95, 172, 0) 100%), url('/images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 59px 0px 0px 64px;
